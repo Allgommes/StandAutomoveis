@@ -1,5 +1,3 @@
----
-
 # 🚗 Stand Automóveis
 
 Este é um projeto de exemplo para um site de um stand de automóveis. O objetivo é apresentar veículos disponíveis para venda, com informações detalhadas, imagens e funcionalidades básicas de navegação.
@@ -57,7 +55,7 @@ Desenvolvido por [Allgommes](https://github.com/Allgommes)
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença MIT. Sinta-se à vontade para usar e modificar.
+Este projeto está licenciado sob a licença MIT. Sinta-se à vontade para usar e modificar numa branch que será criada para o efeito.
+As vossas dicas sugestoes são valiosas para a minha formação e crescimento profisional.
 
----
 
