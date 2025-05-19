@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+  main {
+        
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+
+      h2 {
+        text-align: center;
+        color: #050505;
+      }
+
+      h4 {
+        text-align: center;
+        color: #050505;
+      }
+
+      
+
+
+    .linha{
+        display: flex;
+    }
+    .coluna{
+        flex: 33.3%;
+        padding: 5px;
+    }
+    .coluna:hover{		/* se não funcionar, pode se escrever .coluna img:hover*/
+        opacity: 0.25;
+        transform: scale(1.1); /* aumenta a imagem */
+        transition: all 0.5s ease-in-out; /* tempo de transição */
+
+    }
+
+    img{
+    width:100%;
+    height: 100%;
+    }
+
+ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+  overflow: hidden; /* Garante que os itens da lista não transbordem */
+  background-color: #555; /* Cor de fundo do menu */
+  font-family: "Roboto", Arial, Helvetica, sans-serif; /* Fonte do menu */
+  font-size: 18px; /* Tamanho da fonte do menu */
+  border-top: 2px solid black; /* Borda superior do menu */
+}
+
+li {
+  float: left; /* Alinha os itens da lista horizontalmente */
+  
+}
+
+li a {
+  display: block; /* Faz com que o link ocupe todo o espaço do item da lista */
+  color: white; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+  padding: 14px 16px; /* Espaçamento interno (padding) */
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+#rodape {
+    
+        height: 30px;
+        background-color: #555;
+        border-top: 2px solid black;
+        padding: 20px;
+        
+      }
+
+
+
+
+
+
+
+
