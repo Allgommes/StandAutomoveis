@@ -4,46 +4,43 @@ body {
   background-color: white;
 }
 
-  main {
-        
-        height: 50%;
+ main {
+        width: 100%;
+        height: 100%;
         justify-content: center;
         align-items: center;
         display: flex;
         flex-direction: column;
-      }
+}
 
-      h2 {
+h2 {
         text-align: center;
-        color: #050505;
-      }
+        color: #fff;
+}
 
-      h4 {
-        text-align: center;
-        color: #050505;
-      }
+h4 {
+  text-align: center;
+  color: #050505;
+}
 
-      
+.linha {
+  display: flex;
+}
+.coluna {
+  flex: 33.3%;
+  padding: 5px;
+}
+.coluna:hover {
+  /* se não funcionar, pode se escrever .coluna img:hover*/
+  opacity: 0.25;
+  transform: scale(1.1); /* aumenta a imagem */
+  transition: all 0.5s ease-in-out; /* tempo de transição */
+}
 
-
-    .linha{
-        display: flex;
-    }
-    .coluna{
-        flex: 33.3%;
-        padding: 5px;
-    }
-    .coluna:hover{		/* se não funcionar, pode se escrever .coluna img:hover*/
-        opacity: 0.25;
-        transform: scale(1.1); /* aumenta a imagem */
-        transition: all 0.5s ease-in-out; /* tempo de transição */
-
-    }
-
-    img{
-    width:100%;
-    height: 100%;
-    }
+img {
+  width: 100%;
+  height: 100%;
+}
 
 ul {
   list-style-type: none; /* Remove os marcadores da lista */
@@ -58,7 +55,6 @@ ul {
 
 li {
   float: left; /* Alinha os itens da lista horizontalmente */
-  
 }
 
 li a {
@@ -70,18 +66,9 @@ li a {
 }
 
 #rodape {
-    
-        height: 30px;
-        background-color: #555;
-        border-top: 2px solid black;
-        padding: 20px;
-        
-      }
-
-
-
-
-
-
-
+  height: 30px;
+  background-color: #555;
+  border-top: 2px solid black;
+  padding: 20px;
+}
 

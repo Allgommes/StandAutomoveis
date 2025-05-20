@@ -2,9 +2,48 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="imagens/favicon.png">
     <title>Stand de Automóveis</title>
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/logos.css">
+    <link rel="stylesheet" href="css/infinite-slider.css">
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+ 
+    
+
+<script>
+  $(document).ready(function(){
+  $('.customer-logos').slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 3
+      }
+    }]
+  });
+});
+
+</script>
+
+
+
 </head>
 
 
@@ -26,7 +65,7 @@
         <ul>
             <li><a href="todasmarcas.html">Todas as Marcas</a></li>
             <li><a href="avalon.html">Avalon</a></li>
-            <li><a href="bmw">BMW</a></li>
+            <li><a href="bmw.html">BMW</a></li>
             <li><a href="mercedes.html">Mercedes</a></li>
             <li><a href="alfa.html">Alfa</a></li>
             <li><a href="audi.html">Audi</a></li>
@@ -66,23 +105,25 @@
         </div> 
 
 
+   
+        <h2>Nossos Parceiros</h2>
+
+            <div class="container">
+    <section class="customer-logos slider">
+            <div class="slide"><img src="logos/porsche.png"></div>
+            <div class="slide"><img src="logos/lotos.png"></div>
+            <div class="slide"><img src="logos/chevy.png"></div>
+            <div class="slide"><img src="logos/ford.png"></div>
+            <div class="slide"><img src="logos/porsche.png"></div>
+            <div class="slide"><img src="logos/tesla.png"></div>
+            <div class="slide"><img src="logos/toyota.png"></div>
+    </section>
+    </div><br /><br />
     
-      <h2>Nossos Parceiros</h2>
-      <main> 
-      <img class="slideshow" width="600" height="400" />
-    </main>
-    <script src="js/slideshow.js"></script>
-    <br />
 
     <div id="rodape">
-        <h4>Copyright 2025 Stand Automoveis</h4>
-        
+        <h4>Copyright 2025 Stand Automoveis</h4>       
     </div>
-   
-     
-
- 
-
   
 </body>
 </html>

@@ -1,6 +1,6 @@
 var slide = document.querySelector('.slideshow'); // Select the image element
 var images = [ // Array of image paths
-		'/logos/bmw.png',
+		'logos/bmw.png',
 		'logos/ford.png',
 		'logos/chevy.png',
 		'logos/logomercedes.png',
